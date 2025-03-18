@@ -325,7 +325,7 @@ const Home = () => {
               </div>
               <div className="flex items-center rounded-sm pl-6 text-green-600 mb-0.5 font-semibold hover:text-green-500">
                 <span>Meet all customers</span>
-                <img src="/right.svg" alt="" className="ml-3 w-4 h-4" />
+                <img src="/Right.svg" alt="" className="ml-3 w-4 h-4" />
               </div>
             </div>
           </div>
@@ -415,7 +415,7 @@ const Home = () => {
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <button className="flex items-center justify-center bg-green-600 w-35 h-12 mt-10 text-neutral-50 rounded-sm hover:bg-green-500">
+            <button className="flex items-center justify-center bg-green-600 w-35 h-12 mt-10 mb-10 text-neutral-50 rounded-sm hover:bg-green-500">
               Get a Demo
               <img
                 src="/seta-direita.png"

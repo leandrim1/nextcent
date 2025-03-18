@@ -1,48 +1,42 @@
 const Footer = () => {
   return (
-    <footer className="w-full h-80 mt-30 flex items-center text-center bg-gray-800">
-      <div className="flex flex-col w-100 h-50 pt-3 pl-30">
-        <img src="/Logo branca.svg" alt="" className="w-40 mb-2" />
-        <div className="text-left text-gray-500 mt-3 pt-3">
-          <span>
-            Copyright © 2020 Landify UI Kit. <br />
-            All rights reserved
-          </span>
+    <footer className="w-full bg-gray-800 p-5">
+      <div className="flex flex-col md:flex-row items-center text-center justify-center md:text-left">
+        <div className="flex flex-col w-full md:w-1/3 mb-5 md:mb-0">
+          <img
+            src="/Logo branca.svg"
+            alt="Logo"
+            className="w-40 mb-2 mx-auto md:mx-0"
+          />
+          <div className="text-gray-500 mt-3">
+            <span>
+              Copyright © 2020 Landify UI Kit. <br />
+              All rights reserved
+            </span>
+          </div>
+          <div className="flex justify-center md:justify-start gap-5 mt-5">
+            <div className="rounded-full bg-gray-400 w-10 h-10 flex items-center justify-center transition-transform duration-75 ease-in-out hover:scale-110">
+              <img src="/Instagram.svg" alt="Instagram" className="w-7 h-7" />
+            </div>
+            <div className="rounded-full bg-gray-400 w-10 h-10 flex items-center justify-center transition-transform duration-75 ease-in-out hover:scale-110">
+              <img src="/Path.svg" alt="Path" className="w-7 h-7" />
+            </div>
+            <div className="rounded-full bg-gray-400 w-10 h-10 flex items-center justify-center transition-transform duration-75 ease-in-out hover:scale-110">
+              <img src="/Twitter.svg" alt="Twitter" className="w-7 h-7" />
+            </div>
+            <div className="rounded-full bg-gray-400 w-10 h-10 flex items-center justify-center transition-transform duration-75 ease-in-out hover:scale-110">
+              <img src="/Youtube.svg" alt="YouTube" className="w-7 h-7" />
+            </div>
+          </div>
         </div>
-        <div className="flex flex-row justify-center gap-10 mt-10">
-          <div className="rounded-full justify-center content-center pl-1.5 bg-gray-400 w-10 h-10 transition duration-75 ease-in-out hover:scale-110">
-            <img src="/Instagram.svg" alt="" className="w-7 h-7" />
-          </div>
-          <div className="rounded-full justify-center content-center pl-1.5 bg-gray-400 w-10 h-10 transition duration-75 ease-in-out hover:scale-110">
-            <img src="/Path.svg" alt="" className="w-7 h-7" />
-          </div>
-          <div className="rounded-full justify-center content-center pl-1.5 bg-gray-400 w-10 h-10 transition duration-75 ease-in-out hover:scale-110">
-            <img src="/Twitter.svg" alt="" className="w-7 h-7" />
-          </div>
-          <div className="rounded-full justify-center content-center pl-1.5 bg-gray-400 w-10 h-10 transition duration-75 ease-in-out hover:scale-110">
-            <img src="/Youtube.svg" alt="" className="w-7 h-7" />
-          </div>
+        <div className="flex flex-col justify-center text-left gap-2 md:ml-10 mb-5 md:mb-0 md:w-1/4">
+          <h1 className="text-2xl text-neutral-50">Stay up to date</h1>
+          <input
+            type="text"
+            placeholder="Your email address"
+            className="pl-3 w-full h-10 rounded-sm bg-gray-400 mt-3"
+          />
         </div>
-      </div>
-      <div className="flex flex-col justify-center text-left gap-2 ml-100">
-        <h1 className="text-2xl text-neutral-50">Company</h1>
-        <div className="text-neutral-50 ">About us</div>
-        <div className="text-neutral-50">Blog</div>
-        <div className="text-neutral-50">Contact us</div>
-        <div className="text-neutral-50">Pricing</div>
-        <div className="text-neutral-50">Testimonials</div>
-      </div>
-      <div className="flex flex-col justify-center text-left gap-2 ml-30">
-        <h1 className="text-2xl text-neutral-50">Support</h1>
-        <div className="text-neutral-50">Help center</div>
-        <div className="text-neutral-50">Terms of service</div>
-        <div className="text-neutral-50">Legal</div>
-        <div className="text-neutral-50">Privacy policy</div>
-        <div className="text-neutral-50">Status</div>
-      </div>
-      <div className="flex flex-col justify-center text-left gap-2 ml-30 mb-25">
-        <h1 className="text-2xl text-neutral-50">Stay up to date</h1>
-        <input type="text" placeholder="Your email address" className="pl-3 w-70 h-10 rounded-sm bg-gray-400 mt-3"/>
       </div>
     </footer>
   );

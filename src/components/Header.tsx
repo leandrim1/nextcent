@@ -16,10 +16,10 @@ const Header = () => {
       {/* Desktop Navigation */}
       <nav className="hidden md:flex items-center justify-center gap-2 lg:gap-10 md:gap-4 font-semibold">
         <div>
-          <strong className="text-gray-800 hover:text-gray-700">Home</strong>
+          <strong className="text-gray-800 hover:text-gray-700">Api-Tempo</strong>
         </div>
         <div>
-          <strong className="text-gray-800 hover:text-gray-700">Features</strong>
+          <strong className="text-gray-800 hover:text-gray-700">Api-Rick</strong>
         </div>
         <div>
           <strong className="text-gray-800 hover:text-gray-700">Community</strong>
