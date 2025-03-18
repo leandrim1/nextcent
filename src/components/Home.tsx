@@ -15,7 +15,7 @@ const Home = () => {
               </span>
             </div>
             <div className="flex flex-col xl:flex-row items-center gap-5 mt-7">
-              <div className="text-sm text-center text-amber-50 w-30 h-10 rounded-sm bg-green-600 transition duration-300 ease-in-out hover:scale-90 sm:w-40 sm:h-10 sm:pt-2">
+              <div className="text-sm text-center text-amber-50 w-30 h-10 pt-2 rounded-sm bg-green-600 transition duration-300 ease-in-out hover:scale-90 sm:w-40 sm:h-10 sm:pt-2">
                 <button className="">Register</button>
               </div>
             </div>
@@ -93,7 +93,7 @@ const Home = () => {
           <span>Who is Nextcent suitable for?</span>
         </div>
         <div className="flex flex-wrap justify-center gap-10 mt-15">
-          <div className="w-full sm:w-80 md:w-72 lg:w-75 h-auto pt-3 rounded-sm bg-neutral-50 flex flex-col items-center transition duration-75 ease-in-out hover:scale-110">
+          <div className="w-60 sm:w-80 md:w-72 lg:w-75 h-auto pt-3 rounded-sm bg-neutral-50 flex flex-col items-center transition duration-75 ease-in-out hover:scale-110">
             <img src="/Icon.svg" alt="" className="mb-2" />
             <h1 className="text-center text-2xl font-semibold mt-2 text-gray-800">
               Membership <br />
@@ -107,7 +107,7 @@ const Home = () => {
               </span>
             </div>
           </div>
-          <div className="w-full sm:w-80 md:w-72 lg:w-75 h-auto pt-3 rounded-sm bg-neutral-50 flex flex-col items-center transition duration-75 ease-in-out hover:scale-110">
+          <div className="w-60 sm:w-80 md:w-72 lg:w-75 h-auto pt-3 rounded-sm bg-neutral-50 flex flex-col items-center transition duration-75 ease-in-out hover:scale-110">
             <img src="/Icon (1).svg" alt="" className="mb-2" />
             <h1 className="text-center text-2xl font-semibold mt-0 text-gray-800">
               National <br />
@@ -121,7 +121,7 @@ const Home = () => {
               </span>
             </div>
           </div>
-          <div className="w-full sm:w-80 md:w-72 lg:w-75 h-auto pt-3 rounded-sm bg-neutral-50 flex flex-col items-center transition duration-75 ease-in-out hover:scale-110">
+          <div className="w-60 sm:w-80 md:w-72 lg:w-75 h-auto pt-3 rounded-sm bg-neutral-50 flex flex-col items-center transition duration-75 ease-in-out hover:scale-110">
             <img src="/Icon (2).svg" alt="" className="mb-2" />
             <h1 className="text-center text-2xl font-semibold mt-2 text-gray-800">
               Clubs And <br />
@@ -343,15 +343,15 @@ const Home = () => {
               is increasing their membership income and lots more.
             </span>
           </div>
-          <div className="flex flex-wrap justify-center mt-5 gap-4 sm:gap-30">
+          <div className="flex flex-wrap justify-center mt-5 gap-30 sm:gap-30">
             {/** Card 1 */}
-            <div className="relative w-full sm:w-80 md:w-96">
+            <div className="relative sm:w-80 md:w-96">
               <img
                 src="/image 18.svg"
                 alt=""
-                className="w-full h-auto"
+                className="w-80 h-auto"
               />
-              <div className="absolute top-1/2 transform -translate-y-1/2 left-13 sm:left-5 md:left-13 w-70 mt-35 rounded-sm bg-neutral-100 pt-3 text-xl text-gray-600">
+              <div className="absolute top-1/2 transform -translate-y-1/2 left-5 lg:left-5 sm:left-5 md:left-5 w-70 mt-35 rounded-sm bg-neutral-100 pt-3 text-xl text-gray-600">
                 Creating Streamlined <br />
                 Safeguarding Processes with <br />
                 OneRen
@@ -366,13 +366,13 @@ const Home = () => {
               </div>
             </div>
             {/** Card 2 */}
-            <div className="relative w-full sm:w-80 md:w-96">
+            <div className="relative sm:w-80 md:w-96">
               <img
                 src="/image 18.svg"
                 alt=""
-                className="w-full h-auto"
+                className="w-80 h-auto"
               />
-              <div className="absolute top-1/2 transform -translate-y-1/2 left-13 sm:left-5 md:left-13 w-70 mt-35 rounded-sm bg-neutral-100 pt-3 text-xl text-gray-600">
+              <div className="absolute top-1/2 transform -translate-y-1/2 left-5 lg:left-5 sm:left-5 md:left-5 w-70 mt-35 rounded-sm bg-neutral-100 pt-3 text-xl text-gray-600">
                 What are your safeguarding <br />
                 responsibilities and how can <br />
                 you manage them?
@@ -387,13 +387,13 @@ const Home = () => {
               </div>
             </div>
             {/** Card 3 */}
-            <div className="relative w-full sm:w-80 md:w-96">
+            <div className="relative sm:w-80 md:w-96">
               <img
                 src="/image 18.svg"
                 alt=""
-                className="w-full h-auto"
+                className="w-80 h-auto"
               />
-              <div className="absolute top-1/2 transform -translate-y-1/2 left-13 sm:left-5 md:left-13 w-70 mt-35 rounded-sm bg-neutral-100 pt-3 text-xl text-gray-600">
+              <div className="absolute top-1/2 transform -translate-y-1/2 left-5 lg:left-5 sm:left-5 md:left-5 w-70 mt-35 rounded-sm bg-neutral-100 pt-3 text-xl text-gray-600">
                 Revamping the Membership <br />
                 Model with Triathlon <br />
                 Australia
