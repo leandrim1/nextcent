@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <header className="w-full h-20 flex items-center justify-between px-5 md:px-10 sm:px-1">
       <div className="flex items-center">
-        <img src="/logo.svg" alt="Logo" className="w-30 h-10 md:w-30 sm:w-20" />
+        <img src="/Logo.svg" alt="Logo" className="w-30 h-10 md:w-30 sm:w-20" />
       </div>
       <nav className="flex flex-wrap items-center justify-center gap-5 font-semibold lg:gap-15 sm:gap-3">
         <div>

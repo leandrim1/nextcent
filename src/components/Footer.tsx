@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="w-full h-80 mt-30 flex items-center text-center bg-gray-800">
       <div className="flex flex-col w-100 h-50 pt-3 pl-30">
-        <img src="/logo branca.svg" alt="" className="w-40 mb-2" />
+        <img src="/Logo branca.svg" alt="" className="w-40 mb-2" />
         <div className="text-left text-gray-500 mt-3 pt-3">
           <span>
             Copyright © 2020 Landify UI Kit. <br />
