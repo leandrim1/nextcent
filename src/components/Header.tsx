@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className="w-full h-20 flex items-center justify-between px-5 sm:px-10 md:px-20 relative">
       <div className="flex items-center">
-        <img src="./public/logo.svg" alt="Logo" className="w-30 h-10" />
+        <img src="\Logo.svg" alt="Logo" className="w-30 h-10" />
       </div>
 
       {/* Desktop Navigation */}
