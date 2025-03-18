@@ -14,7 +14,7 @@ const Header = () => {
       </div>
 
       {/* Desktop Navigation */}
-      <nav className="hidden md:flex items-center justify-center gap-2 font-semibold">
+      <nav className="hidden md:flex items-center justify-center gap-2 lg:gap-10 md:gap-4 font-semibold">
         <div>
           <strong className="text-gray-800 hover:text-gray-700">Home</strong>
         </div>
@@ -67,7 +67,7 @@ const Header = () => {
             </div>
             <button className="flex items-center h-10 px-4 mt-2 rounded-sm bg-green-600 text-amber-50 hover:bg-green-500">
               Register Now
-              <img src="./public/seta-direita.png" alt="Arrow" className="ml-2 w-4 h-4" />
+              <img src="\seta-direita.png" alt="Arrow" className="ml-2 w-4 h-4" />
             </button>
           </nav>
         </div>
