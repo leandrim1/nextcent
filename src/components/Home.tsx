@@ -22,7 +22,7 @@ const Home = () => {
           </div>
           <div className="flex w-60 h-60 mt-18 xl:mt-18 rounded-lg transition duration-75 hover:scale-110 sm:w-80 sm:h-80 xl:w-96 xl:h-96">
             <img
-              src=".\public\illustration.svg"
+              src="/illustration.svg"
               alt=""
               className="w-full h-full object-cover rounded-lg"
             />
@@ -37,49 +37,49 @@ const Home = () => {
         <div className="flex flex-wrap justify-center gap-10 mt-15">
           <div className="transition duration-75 ease-in-out hover:scale-110">
             <img
-              src=".\public\Logo-Clients.svg"
+              src="/Logo-Clients.svg"
               alt="Client Logo"
               className="w-12 h-auto"
             />
           </div>
           <div className="transition duration-75 ease-in-out hover:scale-110">
             <img
-              src=".\public\Logo-Clients (1).svg"
+              src="/Logo-Clients (1).svg"
               alt="Client Logo"
               className="w-12 h-auto"
             />
           </div>
           <div className="transition duration-75 ease-in-out hover:scale-110">
             <img
-              src=".\public\Logo-Clients (2).svg"
+              src="/Logo-Clients (2).svg"
               alt="Client Logo"
               className="w-12 h-auto"
             />
           </div>
           <div className="transition duration-75 ease-in-out hover:scale-110">
             <img
-              src=".\public\Logo-Clients (3).svg"
+              src="/Logo-Clients (3).svg"
               alt="Client Logo"
               className="w-12 h-auto"
             />
           </div>
           <div className="transition duration-75 ease-in-out hover:scale-110">
             <img
-              src=".\public\Logo-Clients (4).svg"
+              src="/Logo-Clients (4).svg"
               alt="Client Logo"
               className="w-12 h-auto"
             />
           </div>
           <div className="transition duration-75 ease-in-out hover:scale-110">
             <img
-              src=".\public\Logo-Clients (5).svg"
+              src="/Logo-Clients (5).svg"
               alt="Client Logo"
               className="w-12 h-auto"
             />
           </div>
           <div className="transition duration-75 ease-in-out hover:scale-110">
             <img
-              src=".\public\Logo-Clients (6).svg"
+              src="/Logo-Clients (6).svg"
               alt="Client Logo"
               className="w-12 h-auto"
             />
@@ -94,7 +94,7 @@ const Home = () => {
         </div>
         <div className="flex flex-wrap justify-center gap-10 mt-15">
           <div className="w-full sm:w-80 md:w-72 lg:w-75 h-auto pt-3 rounded-sm bg-neutral-50 flex flex-col items-center transition duration-75 ease-in-out hover:scale-110">
-            <img src=".\public\Icon.svg" alt="" className="mb-2" />
+            <img src="/Icon.svg" alt="" className="mb-2" />
             <h1 className="text-center text-2xl font-semibold mt-2 text-gray-800">
               Membership <br />
               Organisations
@@ -108,7 +108,7 @@ const Home = () => {
             </div>
           </div>
           <div className="w-full sm:w-80 md:w-72 lg:w-75 h-auto pt-3 rounded-sm bg-neutral-50 flex flex-col items-center transition duration-75 ease-in-out hover:scale-110">
-            <img src=".\public\Icon (1).svg" alt="" className="mb-2" />
+            <img src="/Icon (1).svg" alt="" className="mb-2" />
             <h1 className="text-center text-2xl font-semibold mt-0 text-gray-800">
               National <br />
               Associations
@@ -122,7 +122,7 @@ const Home = () => {
             </div>
           </div>
           <div className="w-full sm:w-80 md:w-72 lg:w-75 h-auto pt-3 rounded-sm bg-neutral-50 flex flex-col items-center transition duration-75 ease-in-out hover:scale-110">
-            <img src=".\public\Icon (2).svg" alt="" className="mb-2" />
+            <img src="/Icon (2).svg" alt="" className="mb-2" />
             <h1 className="text-center text-2xl font-semibold mt-2 text-gray-800">
               Clubs And <br />
               Groups
@@ -139,7 +139,7 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-center xl:pt-8 xl:pb-30 xl:mt-8">
           <div className="flex w-full sm:w-80 md:w-96 lg:w-96 h-auto mt-8 xl:mt-0 rounded-lg transition duration-75 hover:scale-110">
             <img
-              src=".\public\Frame 35.svg"
+              src="/Frame 35.svg"
               alt=""
               className="w-full h-full object-cover rounded-lg"
             />
@@ -180,14 +180,14 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-2 items-center justify-center gap-5 mt-15">
             <div className="flex flex-row items-center">
-              <img src=".\public\Members.svg" alt="" className="w-11 h-7" />
+              <img src="/Members.svg" alt="" className="w-11 h-7" />
               <h2 className="ml-3 text-gray-700">
                 2,245,341 <br />
                 <span className="text-gray-500 text-sm">Members</span>
               </h2>
             </div>
             <div className="flex flex-row items-center">
-              <img src=".\public\Clubs.svg" alt="" className="w-11 h-10" />
+              <img src="/Clubs.svg" alt="" className="w-11 h-10" />
               <h2 className="ml-3 text-gray-700">
                 46,328 <br />
                 <span className="text-gray-500 text-sm">Clubs</span>
@@ -195,7 +195,7 @@ const Home = () => {
             </div>
             <div className="flex flex-row items-center">
               <img
-                src=".\public\Event Bookings.svg"
+                src="/Event Bookings.svg"
                 alt=""
                 className="w-11 h-7"
               />
@@ -205,7 +205,7 @@ const Home = () => {
               </h2>
             </div>
             <div className="flex flex-row items-center">
-              <img src=".\public\Payments.svg" alt="" className="w-11 h-7" />
+              <img src="/Payments.svg" alt="" className="w-11 h-7" />
               <h2 className="ml-3 text-gray-700">
                 1,926,436 <br />
                 <span className="text-gray-500 text-sm">Payments</span>
@@ -216,7 +216,7 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-center mt-10 xl:pt-8 xl:pb-30">
           <div className="flex w-full sm:w-80 md:w-96 lg:w-96 h-auto mt-8 xl:mt-0 rounded-lg transition duration-75 hover:scale-110">
             <img
-              src=".\public\pana.svg"
+              src="/pana.svg"
               alt=""
               className="w-full h-full object-cover rounded-lg"
             />
@@ -253,7 +253,7 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-center xl:pt-8 xl:pb-30">
           <div className="flex w-full sm:w-80 md:w-96 lg:w-96 h-auto mt-4 xl:mt-0 rounded-lg">
             <img
-              src=".\public\Image 9.svg"
+              src="/Image 9.svg"
               alt=""
               className="w-full h-auto rounded-lg"
             />
@@ -283,49 +283,49 @@ const Home = () => {
             <div className="flex flex-wrap justify-center xl:justify-start gap-8 mt-7">
               <div className="transition duration-75 ease-in-out hover:scale-110">
                 <img
-                  src=".\public\Logo-Clients.svg"
+                  src="/Logo-Clients.svg"
                   alt=""
                   className="w-10 h-auto"
                 />
               </div>
               <div className="transition duration-75 ease-in-out hover:scale-110">
                 <img
-                  src=".\public\Logo-Clients (1).svg"
+                  src="/Logo-Clients (1).svg"
                   alt=""
                   className="w-10 h-auto"
                 />
               </div>
               <div className="transition duration-75 ease-in-out hover:scale-110">
                 <img
-                  src=".\public\Logo-Clients (2).svg"
+                  src="/Logo-Clients (2).svg"
                   alt=""
                   className="w-10 h-auto"
                 />
               </div>
               <div className="transition duration-75 ease-in-out hover:scale-110">
                 <img
-                  src=".\public\Logo-Clients (3).svg"
+                  src="/Logo-Clients (3).svg"
                   alt=""
                   className="w-10 h-auto"
                 />
               </div>
               <div className="transition duration-75 ease-in-out hover:scale-110">
                 <img
-                  src=".\public\Logo-Clients (4).svg"
+                  src="/Logo-Clients (4).svg"
                   alt=""
                   className="w-10 h-auto"
                 />
               </div>
               <div className="transition duration-75 ease-in-out hover:scale-110">
                 <img
-                  src=".\public\Logo-Clients (5).svg"
+                  src="/Logo-Clients (5).svg"
                   alt=""
                   className="w-10 h-auto"
                 />
               </div>
               <div className="flex items-center rounded-sm pl-6 text-green-600 mb-0.5 font-semibold hover:text-green-500">
                 <span>Meet all customers</span>
-                <img src=".\public\right.svg" alt="" className="ml-3 w-4 h-4" />
+                <img src="/right.svg" alt="" className="ml-3 w-4 h-4" />
               </div>
             </div>
           </div>
@@ -347,7 +347,7 @@ const Home = () => {
             {/** Card 1 */}
             <div className="relative w-full sm:w-80 md:w-96">
               <img
-                src=".\public\image 18.svg"
+                src="/image 18.svg"
                 alt=""
                 className="w-full h-auto"
               />
@@ -358,7 +358,7 @@ const Home = () => {
                 <div className="flex items-center justify-center rounded-sm pl-2 pt-3 text-green-600 mb-0.5 font-semibold hover:text-green-500">
                   <span>Read more</span>
                   <img
-                    src=".\public\right.svg"
+                    src="/right.svg"
                     alt=""
                     className="mt-1 ml-2 w-6 h-6"
                   />
@@ -368,7 +368,7 @@ const Home = () => {
             {/** Card 2 */}
             <div className="relative w-full sm:w-80 md:w-96">
               <img
-                src=".\public\image 18.svg"
+                src="/image 18.svg"
                 alt=""
                 className="w-full h-auto"
               />
@@ -379,7 +379,7 @@ const Home = () => {
                 <div className="flex items-center justify-center rounded-sm pl-2 pt-3 text-green-600 mb-0.5 font-semibold hover:text-green-500">
                   <span>Read more</span>
                   <img
-                    src=".\public\right.svg"
+                    src="/right.svg"
                     alt=""
                     className="mt-1 ml-2 w-6 h-6"
                   />
@@ -389,7 +389,7 @@ const Home = () => {
             {/** Card 3 */}
             <div className="relative w-full sm:w-80 md:w-96">
               <img
-                src=".\public\image 18.svg"
+                src="/image 18.svg"
                 alt=""
                 className="w-full h-auto"
               />
@@ -400,7 +400,7 @@ const Home = () => {
                 <div className="flex items-center justify-center rounded-sm pl-2 pt-3 text-green-600 mb-0.5 font-semibold hover:text-green-500">
                   <span>Read more</span>
                   <img
-                    src=".\public\right.svg"
+                    src="/right.svg"
                     alt=""
                     className="mt-1 ml-2 w-6 h-6"
                   />
@@ -418,7 +418,7 @@ const Home = () => {
             <button className="flex items-center justify-center bg-green-600 w-35 h-12 mt-10 text-neutral-50 rounded-sm hover:bg-green-500">
               Get a Demo
               <img
-                src=".\public\seta-direita.png"
+                src="/seta-direita.png"
                 alt=""
                 className="ml-2 mt-1 w-4 h-4 mr-2"
               />
