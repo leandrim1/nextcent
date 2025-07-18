@@ -32,7 +32,7 @@ const Header = () => {
         </div>
         <button className="flex items-center h-10 px-4 rounded-sm bg-green-600 text-amber-50 hover:bg-green-500">
           Register Now
-          <img src="./public/seta-direita.png" alt="Arrow" className="ml-2 w-4 h-4" />
+          <img src="\seta-direita.png" alt="Arrow" className="ml-2 w-4 h-4" />
         </button>
       </nav>
 
